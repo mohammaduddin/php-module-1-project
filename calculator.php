@@ -1,5 +1,14 @@
 <?php
 
-echo "2+52";
+function greet($name = "Nobody")
+{
+
+    return "Hello, " . $name;
+
+}
+
+
+
+echo greet("Alic");
 
 ?>
