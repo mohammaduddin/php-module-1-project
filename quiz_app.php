@@ -29,4 +29,5 @@ $questions = [
 $percentage = run_quiz($questions);
 echo "Your score is " . number_format($percentage, 2) . "%." . PHP_EOL;
 
+
 ?>
