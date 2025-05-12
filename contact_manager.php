@@ -24,7 +24,7 @@ while (true) {
             echo "No contacts saved.\n";
         }
     } elseif ($choice == '3') {
-        break;
+        break; // break to exit
     }
 }
 
